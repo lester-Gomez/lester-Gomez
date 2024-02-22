@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class tarea {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Solicitar al usuario que ingrese su nombre completo
+        System.out.println("Ingrese su nombre completo:");
+        String nombreCompleto = scanner.nextLine();
+
+        // Solicitar al usuario que ingrese los tres números enteros
+        System.out.println("Ingrese el primer número entero:");
+        int numero1 = scanner.nextInt();
+
+        System.out.println("Ingrese el segundo número entero:");
+        int numero2 = scanner.nextInt();
+
+        System.out.println("Ingrese el tercer número entero:");
+        int numero3 = scanner.nextInt();
+
+        // Mostrar los valores ingresados por el usuario
+        System.out.println("\nNombre completo: " + nombreCompleto);
+        System.out.println("Primer número entero: " + numero1);
+        System.out.println("Segundo número entero: " + numero2);
+        System.out.println("Tercer número entero: " + numero3);
+
+        // Cerrar el scanner para liberar recursos
+        scanner.close();
+    }
+}
+
